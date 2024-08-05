@@ -58,7 +58,7 @@ const Home = () => {
                 <div className="md:w-1/2 mt-4 md:mt-0 flex justify-center md:justify-end relative">
                     <div
                         className="rounded-sm shadow-lg w-[28rem] md:h-[30.125rem] bg-cover bg-start bg-gray-200"
-                        style={{ backgroundImage: 'url(../public/one.png)' }}
+                        style={{ backgroundImage: 'url(../public/one.jpg)' }}
                     >
                     </div>
                 </div>

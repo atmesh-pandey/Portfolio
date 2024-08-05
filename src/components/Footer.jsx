@@ -53,7 +53,7 @@ const Footer = () => {
         <div className="flex justify-center text-center w-full">
           <div className="flex items-center space-x-2">
             made with&nbsp;
-            <img src="../public/heart.png" alt="Heart icon" className="w-8 h-8" />
+            <img src="../public/heart.jpg" alt="Heart icon" className="w-8 h-8" />
             &nbsp;by&nbsp;
             <span className="custom-font">
               <a

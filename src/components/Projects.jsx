@@ -16,25 +16,25 @@ const projects = [
   {
     title: 'Pintrest Clone',
     description: 'The **Pinterest Clone** is a web application replicating Pinterest’s features, including pin boards, image uploads, and user profiles. It allows users to create boards, save and organize pins, and browse a feed of content. The project uses technologies like **Express.js**, **Node.js**, **MongoDB** for a Pinterest-project.',
-    image: '../public/pintrestClone.png',
+    image: '../public/pintrestClone.jpg',
     link: 'https://link-to-project-three.com'
   },
   {
     title: 'Dog Care',
     description: "**Dog Care** project offers a platform for managing dog vet visits, tracking health metrics, and accessing training resources. It connects dog owners for support, shares advice, and provides emergency contact information. I want to improve the quality of life for dogs.",
-    image: '../public/dogCare.png',
+    image: '../public/dogCare.jpg',
     link: 'https://link-to-project-one.com'
   },
   {
     title: 'E-examination',
     description: '**E-examination** is an online assessment system that enables digital creation, administration, and grading of exams. It supports various question types, provides instant feedback, and streamlines the evaluation process, enhancing accessibility and efficiency.',
-    image: '../public/eExamination.png',
+    image: '../public/eExamination.jpg',
     link: 'https://link-to-project-two.com'
   },
   {
     title: 'Pharma Project',
     description: 'The **Pharma Project** involves creating a digital platform for managing pharmaceutical operations, including drug inventory, prescriptions, and patient records. It facilitates streamlined drug distribution, regulatory compliance, and enhances patient care through efficient, integrated management solutions.',
-    image: '../public/pharmaProject.png',
+    image: '../public/pharmaProject.jpg',
     link: 'https://link-to-project-three.com'
   }
   // Add more projects as needed
