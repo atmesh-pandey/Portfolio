@@ -45,7 +45,7 @@ const Resume = () => {
             <div className="relative pl-8">
               <div className="absolute top-0 left-0 w-4 h-4 bg-primary rounded-full"></div>
               <h5 className="text-xl font-semibold mb-1 text-gray-800">Full Stack Developer</h5>
-              <p className="mb-2 text-gray-600"><strong> Company</strong> | <small>2023 - 2024 to(Present)</small></p>
+              <p className="mb-2 text-gray-600"><strong>Quleep Pvt Ltd</strong> | <small>2023 - 2024 to(Present)</small></p>
               <p className="text-gray-700">I’m working with **Spring Boot** for creating efficient Java applications, **Hibernate** for ORM to map Java objects to database tables, and **MySQL** for data management. I use **Postman** to test APIs and **React** to build dynamic, user-friendly web interfaces.</p>
             </div>
             <div className="relative pl-8">
