@@ -29,7 +29,8 @@
   font-style:italic;
 }
 
-.custom-font {
+.custom-font a{
+  text-decoration: none;
   font-family: 'SHALOEMS', sans-serif;
   font-size: 3rem;
 }
