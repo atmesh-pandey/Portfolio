@@ -24,7 +24,7 @@
 /* styles/index.css */
 @font-face {
   font-family: 'SHALOEMS';
-  src: url('./fonts/SHALOEMS.otf') format('opentype');
+  src: url('fonts/SHALOEMS.otf') format('opentype');
   font-weight: bolder;
   font-style:italic;
 }

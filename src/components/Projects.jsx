@@ -4,37 +4,37 @@ const projects = [
   {
     title: 'Hospital Management System',
     description: 'A Hospital Management System (HMS) is a comprehensive software solution designed to streamline administrative and clinical operations, improving efficiency, patient care, and resource management within a hospital.',
-    image: 'https://media.licdn.com/dms/image/C4E12AQET1KrwtLrNkg/article-cover_image-shrink_600_2000/0/1561376770249?e=2147483647&v=beta&t=cnat4ehN9BEtBO6X6iM3cFjgDRlg2bn1BhIofdiKNnU',
+    image: 'project1.jpg',
     link: 'https://link-to-project-one.com'
   },
   {
     title: 'E-commerce Project',
     description: 'The **E-commerce project** using the **MERN stack** combines **MongoDB**, **Express.js** for server-side functionality, **React** for dynamic user interfaces, and **Node.js** for backend logic, creating online shopping platform.',
-    image: 'https://5.imimg.com/data5/SELLER/Default/2023/5/310716459/YL/XE/JQ/113623010/7-steps-for-ecommerce-mobile-app-development-1-1--500x500.png',
+    image: 'project2.webp',
     link: 'https://link-to-project-two.com'
   },
   {
     title: 'Pintrest Clone',
     description: 'The **Pinterest Clone** is a web application replicating Pinterest’s features, including pin boards, image uploads, and user profiles. It allows users to create boards, save and organize pins, and browse a feed of content. The project uses technologies like **Express.js**, **Node.js**, **MongoDB** for a Pinterest-project.',
-    image: '../public/pintrestClone.jpg',
+    image: 'pintrestClone.jpg',
     link: 'https://link-to-project-three.com'
   },
   {
     title: 'Dog Care',
     description: "**Dog Care** project offers a platform for managing dog vet visits, tracking health metrics, and accessing training resources. It connects dog owners for support, shares advice, and provides emergency contact information. I want to improve the quality of life for dogs.",
-    image: '../public/dogCare.jpg',
+    image: 'dogCare.jpg',
     link: 'https://link-to-project-one.com'
   },
   {
     title: 'E-examination',
     description: '**E-examination** is an online assessment system that enables digital creation, administration, and grading of exams. It supports various question types, provides instant feedback, and streamlines the evaluation process, enhancing accessibility and efficiency.',
-    image: '../public/eExamination.jpg',
+    image: 'eExamination.jpg',
     link: 'https://link-to-project-two.com'
   },
   {
     title: 'Pharma Project',
     description: 'The **Pharma Project** involves creating a digital platform for managing pharmaceutical operations, including drug inventory, prescriptions, and patient records. It facilitates streamlined drug distribution, regulatory compliance, and enhances patient care through efficient, integrated management solutions.',
-    image: '../public/pharmaProject.jpg',
+    image: 'pharmaProject.jpg',
     link: 'https://link-to-project-three.com'
   }
   // Add more projects as needed

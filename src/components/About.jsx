@@ -46,7 +46,7 @@ const About = () => {
             </div>
           </div>
           <div className="flex flex-wrap gap-4">
-            <a href="../public/AtmeshResume.pdf" className="bg-gray-800 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-gray-800 transition-colors duration-300 ease-in-out">Get My Resume</a>
+            <a href="AtmeshResume.pdf" className="bg-gray-800 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-gray-800 transition-colors duration-300 ease-in-out">Get My Resume</a>
             <a href="/learnMore" className="bg-white-100 text-gray-800 font-semibold py-2 px-4 rounded-lg shadow-md border border-gray-800 hover:bg-gray-100 transition-colors duration-300 ease-in-out">Learn More</a>
           </div>
         </div>
