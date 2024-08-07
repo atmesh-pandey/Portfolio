@@ -29,7 +29,7 @@ const Contact = () => {
         toast.success('Your response has been submitted!');
         setFormData({ name: '', email: '', message: '' }); // Clear form data
       } else {
-        toast.alert('Submission failed. Please try again.');
+        toast.error('Submission failed. Please try again.');
       }
     } catch (error) {
       toast.error('An error occurred. Please try again.');
@@ -37,13 +37,10 @@ const Contact = () => {
   };
 
   return (
-    <section id='contact' className="py-16">
+    <section id="contact" className="py-16 px-4">
       <h2 className="text-2xl md:text-3xl font-bold uppercase mb-8 text-center">Contact Us</h2>
       <div className="max-w-2xl mx-auto p-8 rounded-lg shadow-xl border border-gray-200 bg-gray-100">
-        <form
-          onSubmit={handleSubmit}
-          className="space-y-6"
-        >
+        <form onSubmit={handleSubmit} className="space-y-6">
           <div className="flex flex-col">
             <label htmlFor="name" className="text-lg font-medium text-gray-700 mb-2">
               Your Name:
@@ -90,12 +87,13 @@ const Contact = () => {
           </div>
           <button
             type="submit"
-            className="w-full px-6 py-3 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-800 transition duration-300 ease-in-out"
+            className="w-full px-6 py-3 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 transition duration-300 ease-in-out"
           >
             Send
           </button>
         </form>
       </div>
+      <Toaster />
     </section>
   );
 };

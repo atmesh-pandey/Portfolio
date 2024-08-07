@@ -17,7 +17,7 @@ const Navbar = () => {
   // }, [isOpen]);
 
   return (
-    <nav className="bg-gray-800 p-4 px-28">
+    <nav className="bg-gray-800 p-4 px-20">
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center">
           <img src="https://cdn.iconscout.com/icon/free/png-512/free-social-248-96763.png?f=webp&w=256" alt="Logo" className="h-8 w-8 mr-2" style={{ filter: 'invert(100%) brightness(0) saturate(100%)' }} />

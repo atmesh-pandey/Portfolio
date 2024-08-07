@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
-        <section className="bg-gradient-to-r flex flex-col items-center px-44 py-20 min-h-screen">
+        <section className="bg-gradient-to-r flex flex-col items-center px-5 py-20 min-h-screen">
             <div className="flex flex-col md:flex-row items-center w-full max-w-screen-xl mx-auto">
                 {/* Text Content */}
                 <div className="md:w-1/2 md:pr-12 text-center md:text-left">
@@ -55,14 +55,13 @@ const Home = () => {
                     </div>
                 </div>
                 {/* Image Content */}
-                <div className="md:w-1/2 mt-4 md:mt-0 flex justify-center md:justify-end relative">
+                <div className="w-full md:w-1/2 mt-4 md:mt-0 flex justify-center md:justify-end relative">
                     <div
-                        className="rounded-sm shadow-lg w-[28rem] md:h-[30.125rem] bg-cover bg-start bg-gray-200"
+                        className="rounded-sm shadow-lg w-full sm:w-[20rem] md:w-[28rem] h-[22rem] sm:h-[22rem] md:h-[30.125rem] bg-cover bg-start"
                         style={{ backgroundImage: 'url(one.jpg)' }}
                     >
                     </div>
                 </div>
-
             </div>
         </section>
     );
